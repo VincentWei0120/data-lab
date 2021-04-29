@@ -1,3 +1,4 @@
+// https://codehs.com/uploads/40679a9b7302f1bd6108334dd771c507
 /*
  Represents information about a NWS weather station
 */
@@ -25,6 +26,9 @@ public class WeatherStation {
    /* Produce the name of this station */
    public String getName() { 
       return name;
+   }
+   public double getLat(){
+       return lat;
    }
    
    /* Determine if this weather station is located in the given state */
